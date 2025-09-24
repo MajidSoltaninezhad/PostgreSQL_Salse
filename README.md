@@ -3,8 +3,7 @@
 ## Overview  
 
 **Project Name**: Retail Sales Analysis  
-**Difficulty**: Beginner-Friendly  
-**Database**: `p1_retail_db`  
+**Database**: `retail_db`  
 
 This project is designed to showcase SQL skills that every aspiring data analyst needs. From setting up a structured database to cleaning and analyzing retail transactions, the goal is to answer real-world business questions using SQL. It’s a practical starting point for anyone who wants to learn how data analysts use SQL to transform raw data into actionable insights.  
 
@@ -23,11 +22,11 @@ This project is designed to showcase SQL skills that every aspiring data analyst
 
 ### 1. Database Setup  
 
-- Create the database `p1_retail_db`.  
+- Create the database `retail_db`.  
 - Build a `retail_sales` table with fields for transaction ID, sales details, customer info, and financial metrics.  
 
 ```sql
-CREATE DATABASE p1_retail_db;
+CREATE DATABASE retail_db;
 
 CREATE TABLE retail_sales
 (
